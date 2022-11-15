@@ -1,0 +1,207 @@
+	/* main page divs */
+	
+	:root { /* a few variables */
+		--selectionBgColor: white;
+		--selectionHoverColor: #057bfa;
+		--selectionWidth: 15%;
+		--selectionTransTime: 0.3s;
+	}
+
+	a:link{
+		color:#000000;
+	}
+
+	a:hover{
+		color:white;
+	}
+	
+	.bluebox { /* main box with animation thingy */
+		background-color: #0062ff;
+		text-align: center;
+		margin: -8px;
+		margin-bottom: 2px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		font-family:'Lucida console';
+		color:white;
+		font-size: 32px;
+	}
+
+
+	.mainbox {
+		margin:60px auto;
+		background-color:#057bfa;
+		width:50%;
+		text-align:center;
+		padding:0px;
+		
+		
+	}
+
+	.selectionWrapper {
+		background-color: rgb(80, 80, 80);
+		text-align: center;
+		width: 105%;
+		margin-left: -8px;
+		overflow: auto;
+
+	}
+
+	.selection {
+		display: inline-block;
+		transition: var(--selectionTransTime);
+		background-color: var(--selectionBgColor);
+		width: var(--selectionWidth);
+		font-family:'Lucida console';
+		border: 2px solid rgb(81, 81, 255);
+		font-size: 20px;
+
+	}
+
+	.selection:hover {
+		transition: var(--selectionTransTime);
+		background-color: var(--selectionHoverColor);
+		color: white;
+	}
+/*
+	.selSecond {
+		transition: var(--selectionTransTime);
+		display: inline-block;
+		background-color: var(--selectionBgColor);
+		width: var(--selectionWidth);
+		
+		font-family:'Lucida console';
+		border: 2px solid rgb(81, 81, 255);
+		
+	}
+	
+	.selSecond:hover {
+		transition: var(--selectionTransTime);
+		background-color: var(--selectionHoverColor);
+		color: white;
+	}
+
+	.selThird {
+		transition: var(--selectionTransTime);
+		display: inline-block;
+		background-color: var(--selectionBgColor);
+		width: var(--selectionWidth);
+
+		font-family:'Lucida console';
+		border: 2px solid rgb(81, 81, 255);
+	}
+
+	.selThird:hover {
+		transition: var(--selectionTransTime);
+		background-color: var(--selectionHoverColor);
+		color: white;
+	}
+*/
+	
+	.mainbox_grey {
+		margin: 0px auto;
+		width: 70%;
+		background-color:#ffffff;
+		text-align:center;
+		padding:8px;
+		word-break: break-all;
+		
+	}
+
+	.redbox {
+		margin: auto;
+		text-align: center;
+		background-color: #c90000;
+		width:60%;
+		padding: 5px;
+		font-family:'Arial black';
+		
+	}
+	
+	.sussybox { /* yeh i know great name */
+		margin: 60px auto;
+		
+		text-align: center;
+		background-color: #c90000;
+		width:20%;
+		padding: 7px;
+		font-family:'Arial black';
+		word-break: break-all;
+		
+	}
+	
+	.greybox {
+		margin: auto;
+		text-align: center;
+		background-color: #303030;
+		color: white;
+		padding: 7px;
+		width: 88%;
+		
+	}
+
+
+	.mainbox_blue {
+		transition: 1s;
+		background-color:#0000FF;		
+	}
+	
+
+	/* about page stuff  */
+
+	.blueabout {
+		background-color: #0062ff;
+		text-align: center;
+		margin: 10px;
+		padding-top: 10px;
+		padding-bottom: 5px;
+		font-family:'Lucida console';
+		color:white;
+		font-size: 64px;
+	}
+	
+	.mainbox_aboutpage {
+		margin:10px auto;
+		background-color:#057bfa;
+		width:65%;
+		height: 90px;
+		text-align:center;
+		padding:2px;
+		
+		
+	}
+
+	.aboutbox {
+		margin: 0px auto;
+		width: 85%;
+		background-color:#ffffff93;
+		text-align:center;
+		padding:8px;
+		word-break: break-all;
+		
+	}
+
+	.pictureframe {
+		margin: 0px auto;
+		width: 50%;
+		background-color:#000000;
+		text-align:center;
+		padding:8px;
+		
+	}
+	
+	.pictureframe2 {
+		margin: 0px auto;
+		width: 10%;
+		background-color:#000442;
+		text-align:center;
+		padding:8px;
+		
+	}
+
+	/*   Beginning of paragraph stuff    */
+
+	.p1 {
+		font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+	}
