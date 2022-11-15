@@ -1,13 +1,9 @@
 <!DOCTYPE html>
-<!-- /* PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 
-//topside a bunch of character
--->
+
 	<title>Main Page - JW</title> 
 	<link rel="stylesheet" href="cascade.css">
-	<style type="text/css" media="screen">
 
 	</style>
 </head>
@@ -33,7 +29,9 @@
 <P ALIGN="CENTER">
 CURRENTLY UNDER CONSTRUCTION!!
 </p>
-
+</div>
+</div>
+</div>
 
 </body>
 </html>
