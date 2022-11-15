@@ -8,11 +8,6 @@
 	<title>Main Page - JW</title> 
 	<link rel="stylesheet" href="cascade.css">
 	<style type="text/css" media="screen">
-	 body {
-		justify-content: center;
-		align-items: center;
-		background-color: #303030;
-    }
 
 	</style>
 </head>

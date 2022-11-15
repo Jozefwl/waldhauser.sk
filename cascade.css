@@ -7,6 +7,13 @@
 		--selectionTransTime: 0.3s;
 	}
 
+	body {
+		justify-content: center;
+		align-items: center;
+		background-color: #303030;
+    }
+
+
 	a:link{
 		color:#000000;
 	}
