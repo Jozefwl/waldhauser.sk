@@ -36,28 +36,8 @@
 
 
 <P ALIGN="CENTER">
-<b><font size="7" style="font-family:'Lucida console'">
-waldhauser.sk
-</font></b>
-</P>
-
-
-
-
-<P ALIGN="CENTER">
 CURRENTLY UNDER CONSTRUCTION!!
-<TABLE ALIGN="CENTER">
-<TR>
-<TD><a href="https://www.forpsi.sk"><img src="images/forpsi.png" width="90" height="40"></a></TD>
-<td><a href="https://www.linkedin.com/in/jozef-waldhauser-337779220/"><img src="images/linkedin.png" width="40" height="40"></img></a></td>
-</TR>
-</P>
-!!! PAGE IS UNFINISHED!!!
-<p>Links, socials:</p>
-		</div>
-	</div>
-</div>
-
+</p>
 
 
 </body>
