@@ -21,6 +21,31 @@
 	a:hover{
 		color:white;
 	}
+
+	a#title{
+		color: black;
+	}
+
+	a#title:hover{
+		color:black;
+	}
+
+	p#title{
+		font-family:monospace;
+		font-size: 24px;
+	}
+
+	h1 {
+		font-weight: bold;
+		font-size: 32px;
+		font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	}
+
+	h1:hover{
+		
+		text-decoration: underline;
+	}
+
 	
 	.bluebox { /* main box with animation thingy */
 		background-color: #0062ff;
@@ -36,13 +61,22 @@
 
 
 	.mainbox {
-		margin:60px auto;
-		background-color:#057bfa;
+		margin:2% auto;
+		margin-left: 5%;
+		background-color:#ffffff;
 		width:50%;
+		text-align:left;
+		padding:1%;
+		float: left;
+		z-index: 30;
+		position:absolute;
+
+		}
+
+	.mainbox#center{
 		text-align:center;
-		padding:0px;
-		
-		
+		float:left;
+		width:100%;
 	}
 
 	.selectionWrapper {
@@ -112,6 +146,7 @@
 		text-align:center;
 		padding:8px;
 		word-break: break-all;
+		float: right;
 		
 	}
 
@@ -137,13 +172,19 @@
 		
 	}
 	
+
 	.greybox {
-		margin: auto;
-		text-align: center;
-		background-color: #303030;
+		
+		text-align: right;
+		background-color: null;
 		color: white;
-		padding: 7px;
+		margin-top:3%;
+		padding: 0px;
 		width: 88%;
+		position:absolute;
+		z-index: 10;
+		float:right;
+		
 		
 	}
 
