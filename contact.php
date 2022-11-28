@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<head>
+	<title>Main Page - JW</title> 
+	<link rel="stylesheet" href="cascade.css">
+	<script src="typewriter.js"></script> 
+	<script src="linkedin.js"></script> 
+</head>
+
+	<body onload="typeWriter()">
+
+	<div class="bluebox">
+<p id="typing"></p>		
+	</div>
+
+	<div class="selectionWrapper">
+<a href="index.php">	<div class="selection">FIRST PAGE</div>		</a>        
+<a href="main.php">	<div class="selection">MAIN PAGE</div>		</a>
+
+<!-- <a href="links.php">	<div class="selection">LINKS</div>	</a> -->
+<a href="about.php">	<div class="selection">ABOUT</div>	</a>
+	</div>
+	<!-- <div class="greybox"><img src="images/jozef.png" width="40%" height="40%"></div> --> 
+
+    <br>
+    <div class="mainbox_aboutpage" id="secondary">
+    <p>If you wish to contact Jozef Waldhauser,<br>please use the form below</p>
+
+    </div>
+    <br>
+    <div class="mainbox_aboutpage">
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeF6gq1Sw7yoVGlxF35fUjzsLqo5WPD671Ll1PMDiACbluRpQ/viewform?embedded=true" width="640" height="600" frameborder="0" marginheight="0" marginwidth="0">Načítava sa…</iframe>
+    </div>
+
+
+
+
+
+</html>

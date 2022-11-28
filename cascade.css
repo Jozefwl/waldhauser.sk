@@ -35,6 +35,12 @@
 		font-size: 24px;
 	}
 
+	p#contact{
+		font-family:Arial;
+		font-size: 24px;
+		color:#FFFFFF;
+	}
+
 	h1 {
 		font-weight: bold;
 		font-size: 32px;
@@ -61,7 +67,7 @@
 
 
 	.mainbox {
-		margin:2% auto;
+		
 		margin-left: 5%;
 		background-color:#ffffff;
 		width:50%;
@@ -73,16 +79,34 @@
 
 		}
 
-	.mainbox#center{
+		.mainbox#center{
+			text-align:center;
+			float:center;
+			width:86%;
+		}
+
+		.smallcenter{
+			background-color:#ffffff;
+			margin:2% auto;
+			text-align:center;
+			width:60%;
+		}
+	
+	
+	.mainpage {
+		margin:3% auto;
+		background-color:#858585;
+		width:50%;
 		text-align:center;
-		float:left;
-		width:100%;
+		padding:1%;
+		float: center;
 	}
+
 
 	.selectionWrapper {
 		background-color: rgb(80, 80, 80);
 		text-align: center;
-		width: 105%;
+		width: 100%;
 		margin-left: -8px;
 		overflow: auto;
 
@@ -212,9 +236,20 @@
 		margin:10px auto;
 		background-color:#057bfa;
 		width:65%;
-		height: 90px;
 		text-align:center;
 		padding:2px;
+		
+		
+	}
+
+	.mainbox_aboutpage#secondary {
+		margin:10px auto;
+		background-color:#003166;
+		width:65%;
+		text-align:center;
+		padding:2px;
+		color:white;
+		font-family:'Arial Narrow Bold';
 		
 		
 	}
@@ -244,6 +279,30 @@
 		background-color:#000442;
 		text-align:center;
 		padding:8px;
+		
+	}
+
+
+	.indexmain {
+		margin:60px auto;
+		background-color:#057bfa;
+		width:70%;
+		text-align:center;
+		padding:0px;
+	}
+
+	.indexblue {
+		transition: 1s;
+		background-color:#0000FF;
+	}
+
+	.indexgray {
+		margin: 0px auto;
+		width: 90%;
+		background-color:#ffffff;
+		text-align:center;
+		padding:8px;
+		word-break: break-all;
 		
 	}
 
