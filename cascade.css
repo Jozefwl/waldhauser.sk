@@ -40,6 +40,11 @@
 		font-size: 24px;
 		color:#FFFFFF;
 	}
+	p#bigger{
+		font-family:'Lucida Sans';
+		font-size: 20px;
+		color:#000000;
+	}
 
 	h1 {
 		font-weight: bold;
@@ -52,6 +57,10 @@
 		text-decoration: underline;
 	}
 
+
+	.nextto{
+		text-align: center;
+	}
 	
 	.bluebox { /* main box with animation thingy */
 		background-color: #0062ff;
