@@ -1,2 +1,2 @@
 # waldhauser.sk
- new website i'm currently making
+Old website made in html, working but not pretty.
